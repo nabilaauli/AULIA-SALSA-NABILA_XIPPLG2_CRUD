@@ -1,0 +1,32 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/6571236f3f58f52db3c4ab5a
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name" : " lia",
+    "email": "email@gmail.com",
+    "gender": "female" 
+
+}
+
+###
+PATCH http://localhost:5000/users/6571236f3f58f52db3c4ab5a
+Content-Type: application/json
+
+{
+    "name" : "BILA",
+    "email": "BILA@gmail.com",
+    "gender": "male" 
+
+}
+
+###
+DELETE http://localhost:5000/users/6571236f3f58f52db3c4ab5a
+
+
+
